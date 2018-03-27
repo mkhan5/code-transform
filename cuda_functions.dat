@@ -1,0 +1,7 @@
+findCudaDevice
+cublasGetVector
+cublasCreate
+cudaMalloc
+cudaFree
+cublasDestroy
+checkCudaErrors

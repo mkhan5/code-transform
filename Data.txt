@@ -1,0 +1,24 @@
+cuda_runtime.h	header_file
+cublas.h	header_file
+cublas_status	datatype
+cudaSetVector	function
+		constant
+		variable
+
+
+#jelly[45]: type 'header_file' found. Deleting line 2.
+#jelly[32]: type 'datatype' found. Starting action for 'datatype' 
+#jelly[32]: Updating dataDict with variables 'cat', 'dog', 'car'.
+#jelly[32]: Deleting line 43.
+#jelly[32]: Parsing file : deleted references to 'cat' on line 56
+#jelly[32]: Parsing file : Unknown rule encountered. Panic!!! Line 120 injected into comment block
+#jelly[32]: Parsing file : deleted references to 'dog' on line 59
+#jelly[32]: Parsing file : deleted references to 'car' on line 70
+#jelly[32]: Parsing file : deleted references to 'car' on line 72
+#jelly[32]: Parsing file : deleted references to 'car' on line 80
+#jelly[32]: Completed action for 'datatype' 
+
+
+TODO
+get header file list, datatypes, constants, functions.....
+
